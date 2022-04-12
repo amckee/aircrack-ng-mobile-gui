@@ -2,8 +2,6 @@
 
 An [aircrack-ng](https://www.github.com/aircrack-ng/aircrack-ng) gui interface using python-gtk3. 
 
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
-
 ## What can it do?
 Performing a bruteforce attack on WPA/WPA2 networks using [aircrack-ng](https://www.github.com/aircrack-ng/aircrack-ng) and `iw`.
 
@@ -66,28 +64,3 @@ After running airodump-ng, the user can use aireplay to send deauthentication pa
 After saving the handshake into a cap file, aircrack can be accessed from the main window. The user chooses a .cap file that contain the handshake and a wordlist to perform the bruteforce attack on their desired terminal emulator.
 
 ![Alt text](screenshots/8.png?raw=true "ScreenShot 8")
-
-## Donations
-![bitcoin](https://raw.githubusercontent.com/t-gitt/aircrack-ng-gui/master/bitcoin-address.txt)
-
-## Directory tree
-```
-├── LICENSE
-├── README.md
-├── requirements.txt
-├── setup.py
-├── start.py
-├── aircrack-ng-gui
-│  ├── __init__.py
-│  └── aircrack-ng-gui.py
-└── screenshots
-   ├── 1.png
-   ├── 2.png
-   ├── 3.png
-   ├── 4.png
-   ├── 5.png
-   ├── 6.png
-   ├── 7.png
-   ├── 8.png
-   └── 9.png
-```
